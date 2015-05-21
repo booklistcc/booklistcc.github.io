@@ -24,42 +24,59 @@
             width: 500px;
             margin: 0 auto;
         }
-        .title{
+
+        .title {
             font-size: 50px;
             line-height: 50px;
         }
+
         .mainNav {
             border-top: 1px solid #222;
             border-bottom: 2px solid #222;
             margin-top: 20px;
             padding: 13px 0 14px 0;
             font-family: Cufon;
+            font-size: 14px;
         }
-        .main{
+
+        .main {
             width: 100%;
         }
-        .designline{
+
+        .designline {
             margin-top: 50px;
+
         }
-        .postDate{
-            position: relative;
-            top: -35px;
-            margin-bottom: 0px;
+
+        .caption {
+
+            top: -15px;
+            margin-bottom: 10px;
+            padding-top: 20px;
+            padding-bottom: 10px;
             font-family: Georgia, serif;
-            font-size: 10px;
+            font-size: 25px;
             color: #bca474;
             text-decoration: none;
             text-transform: Uppercase;
+
             font-weight: bold;
-            border-bottom: 1px solid #bca474;
+
+            border-top: 1px solid #bca474;
             background: #fff;
         }
-        .pic img{
+
+        .pic img {
             border: none;
             max-width: 100%;
             margin: auto;
         }
-        .footer{
+
+        .info {
+            font-size: 14px;
+        }
+
+        .footer {
             border-top: 2px solid #222;
             color: #222;
             padding: 20px 0 32px 0;
@@ -67,38 +84,59 @@
             font-size: 11px;
         }
 
-        .mobile{
+        .mobile {
             width: 96%;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="title">书单</div>
-        <div class="mainNav">
-            首页 正在读 读过 关于
+<header>
+    <div class="title">书单</div>
+    <div class="mainNav">
+        首页 正在读 读过 关于
+    </div>
+</header>
+<section class="main">
+    <div class="designline">
+        <div class="caption">
+            100个基本
         </div>
-    </header>
-    <section class="main">
-        <div class="designline">
-            <div class="postDate">
-                2015
+        <article>
+            <div class="pic">
+                <img src="images/100gejiben.jpg" alt="100个基本"/>
             </div>
-            <article>
-                <div class="pic">
-                    <img src="images/100gejiben.jpg" alt="100个基本" />
-                </div>
-                <div class="caption">100个基本</div>
-            </article>
+            <div class="info">
+                <p>无意间打开一个名为 cow books 的网站，很喜欢那种极简风。</p>
+
+                <p>没想到昨天随便买的这本书，竟然就是 cow books 的老板写的。</p>
+
+                <p>可见一切是多么的有趣。</p>
+
+                <p>看似毫无关联的行为，却冥冥之中有所关联。</p></div>
+        </article>
+    </div>
+
+    <div class="designline">
+        <div class="caption">
+            我是开豆腐店的，我只做豆腐。
         </div>
-    </section>
-    <footer class="footer">
-        <div class="clearfix">
-            <div class="thefooter">
-                <p>Powered by <a href="http://www.booklist.cc">booklist</a></p>
+        <article>
+            <div class="pic">
+                <img src="images/Yasujiro-Ozu.jpg" alt="100个基本"/>
             </div>
+            <div class="info">
+                <p>正在准备读这本书</p>
+            </div>
+        </article>
+    </div>
+</section>
+<footer class="footer">
+    <div class="clearfix">
+        <div class="thefooter">
+            <p>Powered by <a href="http://www.booklist.cc">booklist</a></p>
         </div>
-    </footer>
+    </div>
+</footer>
 
 <script>
     window.onload = function () {
