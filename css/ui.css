@@ -68,5 +68,10 @@ body {
 }
 
 .mobile {
-    width: 95%;
+}
+
+@media all and (max-width: 400px){
+    body{
+        width: 95%;
+    }
 }
