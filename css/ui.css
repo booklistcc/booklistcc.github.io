@@ -10,7 +10,7 @@ body {
 
 .title {
     font-size: 50px;
-    line-height: 50px;
+    line-height:50px;
 }
 
 .mainNav {
@@ -39,6 +39,7 @@ body {
     padding-bottom: 10px;
     font-family: Georgia, serif;
     font-size: 25px;
+    line-height: 1.2em;
     color: #bca474;
     text-decoration: none;
     text-transform: Uppercase;
